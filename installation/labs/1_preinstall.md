@@ -47,6 +47,7 @@ fi
 EOF
 
 
+yum install -y bind-utils
 
 [root@ip-172-31-25-204 centos]# nslookup ip-172-31-25-204
 Server:         172.31.0.2
@@ -97,11 +98,14 @@ Dependency Installed:
   ntpdate.x86_64 0:4.2.6p5-10.el6.centos.2
 
 Complete!
-[root@ip-172-31-25-204 centos]# service ntp start
-ntp: unrecognized service
+
 [root@ip-172-31-25-204 centos]# service ntpd start
 Starting ntpd:                                             [  OK  ]
 [root@ip-172-31-25-204 centos]# chkconfig ntpd on
+
+
+!!!! --> wrong installation of mysql --> vm terminated and recreated !!!!
+
 
 
 
