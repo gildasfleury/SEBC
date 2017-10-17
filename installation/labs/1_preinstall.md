@@ -332,3 +332,5 @@ On slave :
 mysql> CHANGE MASTER TO MASTER_HOST='ip-172-31-37-53.eu-central-1.compute.internal', MASTER_USER='root', MASTER_PASSWORD='cloudera', MASTER_LOG_FILE='mysql-bin.000001', MASTER_LOG_POS=294; 
 Query OK, 0 rows affected (0.02 sec)
 
+!!! --> cluster recreated from scratch with centos7.2 !!!
+
