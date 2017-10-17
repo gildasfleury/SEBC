@@ -74,7 +74,7 @@ Authoritative answers can be found from:
 
 
 
-[root@ip-172-31-25-204 centos]#yum install nscd
+[root@ip-172-31-25-204 centos]#yum -y install nscd
 Installed:
   nscd.x86_64 0:2.12-1.209.el6_9.2
 Dependency Updated:
@@ -90,7 +90,7 @@ Starting nscd:                                             [  OK  ]
 nscd      5222     1  0 13:51 ?        00:00:00 /usr/sbin/nscd
 root      5236  1597  0 13:51 pts/0    00:00:00 grep nscd
 
-[root@ip-172-31-25-204 centos]#yum install ntp
+[root@ip-172-31-25-204 centos]#yum -y install ntp
 Installed:
   ntp.x86_64 0:4.2.6p5-10.el6.centos.2
 
@@ -161,8 +161,6 @@ Dependency Installed:
 Complete!
 
 JDBC connector on all nodes. Download then USe of sftp of filezilla to push on all nodes.
-
-
 
 [root@ip-172-31-43-15 yum.repos.d]# cd /home/centos
 [root@ip-172-31-43-15 centos]# tar zxvf /home/centos/mysql-connector-java-5.1.44.tar.gz
