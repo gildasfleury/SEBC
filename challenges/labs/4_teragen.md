@@ -1,10 +1,15 @@
+```
 [ernest@ip-172-31-31-254 ~]$ time
 
 real    0m0.000s
 user    0m0.000s
 sys     0m0.000s
+```
+```
 [ernest@ip-172-31-31-254 ~]$ hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar teragen -Ddfs.block.size=32000000 -Dmapred.map.tasks=6 teragen512
 teragen <num rows> <output dir>
+```
+```
 [ernest@ip-172-31-31-254 ~]$ hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar teragen -Ddfs.block.size=32000000 -Dmapred.map.tasks=6 512000 teragen512
 17/10/20 10:22:16 INFO client.RMProxy: Connecting to ResourceManager at ip-172-31-31-254.eu-central-1.compute.internal/172.31.31.254:8032
 17/10/20 10:22:17 INFO terasort.TeraSort: Generating 512000 using 6
@@ -60,3 +65,4 @@ teragen <num rows> <output dir>
                 Bytes Read=0
         File Output Format Counters
                 Bytes Written=51200000
+```
