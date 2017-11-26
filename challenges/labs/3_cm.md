@@ -1,4 +1,4 @@
-
+```
 -bash-4.2$ hdfs dfs -ls /user
 Found 6 items
 drwxr-xr-x   - ernest  usa             0 2017-10-20 09:26 /user/ernest
@@ -7,8 +7,8 @@ drwxrwxr-t   - hive    hive            0 2017-10-20 09:23 /user/hive
 drwxrwxr-x   - hue     hue             0 2017-10-20 09:24 /user/hue
 drwxrwxr-x   - oozie   oozie           0 2017-10-20 09:24 /user/oozie
 drwxr-xr-x   - siwicki emea            0 2017-10-20 09:26 /user/siwicki
-
-
+```
+```
 [root@ip-172-31-19-20 lib]# curl -u admin:admin "http://localhost:7180/api/v14/hosts"
 {
   "items" : [ {
@@ -72,4 +72,6 @@ drwxr-xr-x   - siwicki emea            0 2017-10-20 09:26 /user/siwicki
     "numPhysicalCores" : 2,
     "totalPhysMemBytes" : 15332438016
   } ]
-}[root@ip-172-31-19-20 lib]
+}
+[root@ip-172-31-19-20 lib]
+```
